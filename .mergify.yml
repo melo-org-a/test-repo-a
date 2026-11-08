@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: merge auto apres 1 approbation
+    conditions:
+      - "#approved-reviews-by>=1"
+    actions:
+      merge:
+        method: merge
